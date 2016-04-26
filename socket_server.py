@@ -9,12 +9,6 @@ BUFSIZE = 1024
 ADDR = (HOST, PORT)
 
 
-def testhostname():
-    hostname = socket.gethostname()
-    ip = socket.gethostbyname(hostname)
-    print("host name: %s (%s)", hostname, ip)
-
-
 def main():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind(ADDR)
@@ -36,5 +30,4 @@ def main():
     s.close()
 
 if __name__ == '__main__':
-    testhostname()
     main()
