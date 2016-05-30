@@ -13,4 +13,4 @@ if __name__ == '__main__':
         else:
             print("Parameter Error!")
     else:
-        print("Parameter request.")
+        uu("Parameter request.")
