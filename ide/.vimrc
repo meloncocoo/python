@@ -1,6 +1,20 @@
 " Sample .vimrc file by Martin Brochhaus
 " Presented at PyCon APAC 2012
 
+" ============================================
+" Settings for VBundle, Auto-management Plugis
+" ============================================
+" mkdir -p ~/.vim/bundle
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+"" filetype off
+"" set rtp+=~/.vim/bundle/vundle.vim
+"" call vundle#begin()
+"" Bundle 'VundleVim/vundle'
+"" Plugin 'scrooloose/nerdtree'
+"" Plugin 'Xuyuanp/nerdtree-git-plugin'
+"" Plugin 'git://github.com/tpope/vim-fugitive.git'
+"" call vundle#end()
+"" filetype plugin indent on
 
 " ============================================
 " Note to myself:
